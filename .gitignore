@@ -1,0 +1,43 @@
+.cg_env
+assignment_fldr
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables and local secrets
+.env
+.env.*
+
+# Test, type-checker, and linter caches
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+.tox/
+.nox/
+htmlcov/
+.coverage
+.coverage.*
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
